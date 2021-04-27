@@ -11,6 +11,7 @@ namespace RiderNotNullWhenRepro
             if (!result)
             {
                 Console.WriteLine("Invalid username/password");
+                return;
             }
             
             // Rider gives a "Dereference of a possibly null reference." warning here on user
